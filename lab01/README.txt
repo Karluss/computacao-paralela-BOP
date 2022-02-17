@@ -2,7 +2,7 @@
 
   - Para compilar o programa, foi utilizado a seguinte linha de comando:
 
-  gcc lab01.c -o lab01
+  $ gcc lab01.c -o lab01
 
   - Gerando assim um arquivo executável.
 
@@ -10,7 +10,7 @@
 
   - Para executar o programa, foi utilizado a seguinte linha de comando:
 
-  ./lab01
+  $ ./lab01
 
 # RESULTADOS ALCANÇADOS
 
