@@ -298,9 +298,39 @@ Por qual número deseja multiplicar?: 2
 
 Exercicio 11-
 
+Matrix de entrada:
+
+1 2 3
+4 5 6
+7 8 9
+
+L2 = L1 + L2
+
+1 2 3
+5 7 9
+7 8 9
+
+L2 = L1 * L2
+
+1 2 3
+5 14 27
+7 8 9
+
 Exercicio 12-
+
+Entrada: Computacao-Paralela
+Busca: t
+Index: 5
 
 Exercicio 13-
 
+Entrada: ComputacaoParalela
+index: 4
+Resultado: ComptacaoParalela
+
 Exercicio 14-
 
+Entrada: ComputacaoParalela
+index: 4
+Letra: W
+Resultado: CompWutacaoParalela
