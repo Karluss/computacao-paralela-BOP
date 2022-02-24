@@ -103,14 +103,14 @@ Altura(em metros): 1.77
 
 --------------Informacoes dos individuos--------------
 
-- Individuo 1
+ Individuo 1
 Nome: Carlos
 Idade: 19 anos
 Peso: 57.8 kg
 Altura: 1.70 m
 
 
-- Individuo 2
+ Individuo 2
 
 Nome: Pedro
 Idade: 20 anos
@@ -118,7 +118,7 @@ Peso: 58.9 kg
 Altura: 1.72 m
 
 
-- Individuo 3
+ Individuo 3
 
 Nome: Felipe
 Idade: 22 anos
@@ -126,6 +126,7 @@ Peso: 65.2 kg
 Altura: 1.77 m
 
 Exercicio 8-
+
 ------------Criando a Matriz------------
 
 Número de linhas: 2
@@ -179,6 +180,7 @@ Valor 1: 3
 Valor 2: -11
 
 ------------Matriz criada------------
+
 -1 2 
 3 -11 
 
@@ -187,6 +189,7 @@ Valor 2: -11
 3 11 
 
 Exercicio 10-
+
 ------------Criando a Matriz------------
 
 Número de linhas: 2
