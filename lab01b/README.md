@@ -24,17 +24,17 @@ $ ./exercicio1
 
 - Após rodar cada exercício, esses foram os testes realizados e os resultados obtidos em cada exercício:
 
-1-
+Exercicio 1-
 
-2-
+Exercicio 2-
 
-3-
+Exercicio 3-
 
-4-
+Exercicio 4-
 
-5-
+Exercicio 5-
 
-6-
+Exercicio 6-
 
 ------------Criando a Matriz------------
 
@@ -69,9 +69,10 @@ Valor 3: 2
 2  8  
 33  2  
 
-7-
+Exercicio 7-
 
 --------------Informacoes do individuo 1--------------
+
 Nome: Carlos
 
 Idade: 19
@@ -81,6 +82,7 @@ Peso(em kg): 57.8
 Altura(em metros): 1.70
 
 --------------Informacoes do individuo 2--------------
+
 Nome: Pedro
 
 Idade: 20
@@ -90,6 +92,7 @@ Peso(em kg): 58.9
 Altura(em metros): 1.72
 
 --------------Informacoes do individuo 3--------------
+
 Nome: Felipe
 
 Idade: 22
@@ -108,6 +111,7 @@ Altura: 1.70 m
 
 
 - Individuo 2
+
 Nome: Pedro
 Idade: 20 anos
 Peso: 58.9 kg
@@ -115,12 +119,13 @@ Altura: 1.72 m
 
 
 - Individuo 3
+
 Nome: Felipe
 Idade: 22 anos
 Peso: 65.2 kg
 Altura: 1.77 m
 
-8-
+Exercicio 8-
 ------------Criando a Matriz------------
 
 Número de linhas: 2
@@ -144,6 +149,7 @@ Valor 2: 9
 Valor 3: 6
 
 ------------Matriz criada------------
+
 2 3 4 
 1 9 6 
 
@@ -153,7 +159,7 @@ Valor 3: 6
 3 9 
 4 6
 
-9-
+Exercicio 9-
 ------------Criando a Matriz------------
 
 Número de linhas: 2
@@ -180,7 +186,7 @@ Valor 2: -11
 1 2 
 3 11 
 
-10-
+Exercicio 10-
 ------------Criando a Matriz------------
 
 Número de linhas: 2
@@ -204,10 +210,12 @@ Valor 2: 5
 Valor 3: 6
 
 ------------Matriz criada------------
+
 1 2 3 
 4 5 6 
 
 ------------Multiplicação------------
+
 Deseja multiplicar uma linha ou coluna? (L/C): L
 
 Qual linha deseja ser multiplicada? (de 1 a 2): 1
@@ -215,6 +223,7 @@ Qual linha deseja ser multiplicada? (de 1 a 2): 1
 Por qual número deseja multiplicar?: 2
 
 ------------Matriz multiplicada------------
+
 2 4 6 
 4 5 6 
 
