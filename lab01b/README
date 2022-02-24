@@ -26,13 +26,79 @@ $ ./exercicio1
 
 Exercicio 1-
 
+Qual dimensão vocẽ deseja para sua matriz quadrada? 
+3
+Digite os valores para a 1 linha.
+2
+3
+4
+Digite os valores para a 2 linha.
+1
+7
+8
+Digite os valores para a 3 linha.
+5
+8
+9
+A matriz quadrada desejada é: 
+234
+178
+589
+
+O menor valor da matriz quadrada é: [1]
+
 Exercicio 2-
+
+*****MÉDIA DE ALUNOS*****
+Digite a nota n1:
+8
+
+Digite a nota n2:
+9
+
+Digite a nota n3:
+7
+
+Digite o valor de ME:
+8.5
+
+A nota final é:
+
+B
+7.928571
 
 Exercicio 3-
 
+Digite um número impar máximo do triangulo:
+5
+
+
+*****Resultado*****
+12345
+234
+3
+
 Exercicio 4-
 
+Digite o primeiro nome:
+joao
+Digite o segundo nome:
+douglas
+A ordem é:
+ douglas.
+ joao.
+
 Exercicio 5-
+
+Qual dimensão vocẽ deseja para sua matriz quadrada? 
+2
+Digite os valores da matriz: 
+Digite os valores para a 1 linha.
+2
+4
+Digite os valores para a 2 linha.
+3
+6
 
 Exercicio 6-
 
