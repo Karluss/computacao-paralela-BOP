@@ -36,7 +36,7 @@ int main(){
         printf("\nNome: %s", individuos[i].nome);
         printf("\nIdade: %d anos", individuos[i].idade);
         printf("\nPeso: %.1f kg", individuos[i].peso);
-        printf("\nAltura: %.1f m\n", individuos[i].altura);
+        printf("\nAltura: %.2f m\n", individuos[i].altura);
     }
 
 }
