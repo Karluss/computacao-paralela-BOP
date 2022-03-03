@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
    {
         printf("arg missing or exceeding\n");
         exit(0);
-   }cess to end
+   }
   
     if ( atoi ( argv[1] ) <0 )
     {
