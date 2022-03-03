@@ -10,9 +10,8 @@ int main(int argc, char *argv[])
    {
         printf("arg missing or exceeding\n");
         exit(0);
-   }
+   }cess to end
   
-    // atoi converts string to integer
     if ( atoi ( argv[1] ) <0 )
     {
         printf("negative number entered %d", atoi(argv[1]));
@@ -29,8 +28,7 @@ int main(int argc, char *argv[])
     else if (pid == 0){
 
         int i, num, j;
-        //printf ("Enter the number: ");
-        //scanf ("%d", &num);
+        
 	num = atoi(argv[1]);
         j = num;
 
@@ -42,12 +40,10 @@ int main(int argc, char *argv[])
 	exit(0);
    }
 
-    // parent process
     else
     {
         wait(NULL);
   
-        // waiting for child process to end
         printf("Done\n");
     }
 }
