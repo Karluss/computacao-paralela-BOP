@@ -11,30 +11,32 @@ int main()
     int *shmPTR;
     int status;
 
-    shmid = shmget(IPC_PRIVATE, 4*sizeof(int), IPC_CREAT | 0666);
+    shmid = shmget(IPC_PRIVATE, 4 * sizeof(int), IPC_CREAT | 0666);
 
-    if ((shmid = shmget(IPC_PRIVATE, 4*sizeof(int), IPC_CREAT | 0666) == -1)){
+    if ((shmid = shmget(IPC_PRIVATE, 4 * sizeof(int), IPC_CREAT | 0666) == -1))
+    {
         perror("Erro - SHMEGT");
         exit(1);
     }
 
-    shmPTR = (int *) shmat(shmid, NULL, 0);
-    if ((int) shmPTR == -1){
+    shmPTR = (int *)shmat(shmid, NULL, 0);
+    if ((int)shmPTR == -1)
+    {
         printf("Erro - SHMAT");
         exit(1);
     }
-    
-  
+
     pid = fork();
-  
-    if ( pid<0 )
+
+    if (pid < 0)
     {
         printf("failed to create child\n");
         exit(0);
     }
-    else if (pid == 0){
+    else if (pid == 0)
+    {
         exit(0);
-   }
+    }
 
     else
     {
