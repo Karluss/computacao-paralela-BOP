@@ -21,11 +21,6 @@ int main()
     }
 
     shmPTR = (int *)shmat(shmid, NULL, 0);
-    if ((int)shmPTR == -1)
-    {
-        printf("Erro - SHMAT");
-        exit(1);
-    }
 
     shmPTR[0] = 1;
     printf("Server has saved %d in shared memory\n", shmPTR[0]);
