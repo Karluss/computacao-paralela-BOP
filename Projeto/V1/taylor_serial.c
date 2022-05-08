@@ -7,7 +7,7 @@ int main(void)
   clock_t t;
 
   t = clock();
-  for (float i = 1; i <= 10; i++)
+  for (float i = 1; i <= 100; i++)
   {
     var += 1 / i;
   }
