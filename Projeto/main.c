@@ -9,9 +9,7 @@ int main(void)
     var += 1 / i;
   }
 
-  printf("\n");
-  printf("Resultado: %.2f", var);
-  printf("\n");
+  printf("Resultado: %.2f\n", var);
 
   return 0;
 }
