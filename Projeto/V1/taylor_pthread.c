@@ -44,8 +44,8 @@ int main(int argc, char *argv[])
 void *Taylor(void *rank)
 {
   long my_rank = (long)rank;
-  int num = (my_rank * 25) + 1;
-  int condition = num + 25;
+  int num = (my_rank * (100 / thread_count)) + 1;
+  int condition = num + (100 / thread_count);
 
   for (double i = num; i < condition; i++)
   {
