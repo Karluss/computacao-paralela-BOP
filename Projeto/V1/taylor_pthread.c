@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
 
   t = clock() - t;
 
-  printf("Tempo de execucao com 4 threads: %lf", ((double)t) / ((CLOCKS_PER_SEC / 1000)));
+  printf("Tempo de execucao com 4 threads: %lf\n", ((double)t) / ((CLOCKS_PER_SEC / 1000)));
   return 0;
 };
 
