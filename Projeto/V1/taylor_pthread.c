@@ -3,8 +3,6 @@
 #include <pthread.h>
 #include <time.h>
 
-#define TAM 1000
-
 int thread_count;
 double sum = 0;
 
