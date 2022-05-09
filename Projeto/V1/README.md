@@ -18,9 +18,13 @@
   - Após as instruções acima, deve aparecer no terminal a seguinte saída:
 
   `Resultado: 3.82 da thread 0`
+  
   `Resultado: 4.50 da thread 1`
+  
   `Resultado: 5.19 da thread 3`
+  
   `Resultado: 4.90 da thread 2`
+  
   `Tempo de execucao com 4 threads: 0.933000`
 
 ### CÁLCULO DO SPEEDUP
