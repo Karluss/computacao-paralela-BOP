@@ -2,15 +2,14 @@
 #include <stdlib.h>
 #include <omp.h>
 
-#define T 100
-
-int thread_count;
+#define T 1000000000
 
 void Taylor(double* global_result_p);
 
 int main(int argc, char *argv[])
 {
   double global_result = 0.0;
+  int thread_count;
 
   thread_count = strtol(argv[1], NULL, 10);
 
@@ -26,9 +25,10 @@ int main(int argc, char *argv[])
 void Taylor(double* global_result_p)
 {
   long my_rank = omp_get_thread_num();
+  int thread_count = omp_get_num_threads();
   int num = (my_rank * ( T / thread_count)) + 1;
   int condition = num + (T / thread_count);
-  float sum;
+  double sum = 0.0;
 
   for (double i = num; i < condition; i++)
   {
@@ -38,5 +38,5 @@ void Taylor(double* global_result_p)
   # pragma omp critical
   *global_result_p += sum;
 
-
+  printf("Thread %ld => Resultado: %.4f\n", my_rank, sum);
 }
