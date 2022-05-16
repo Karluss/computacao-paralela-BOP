@@ -1,12 +1,11 @@
-# Controle de acesso à região critica para a variável global compartilhada
+# Critical - Variável compartilhada.
 
-A variável  compartilhada usada é a **global_result_p**.
+Para que pudessemos executar mais de uma thread por vez, foi necessário utilizar:
 
-Quando há possibilidade de resultados indeterminados ocorrer na execução de duas ou mais threads
-concorentemente, somente uma thread pode executar o bloco estruturado por vez. Por isso foi utilizado o **#pragma omp critical** para evitar a condição de corrida. Logo, se uma thread está em seção crítica, nenhuma thread adicional poderá estar no mesmo processo.
-
-para realizarmos as somas necessários dentro da função taylor,, usamos a variável **sum** e colocamos a variável compartilhada para receber esse valor acumulado:
-
-   *# pragma omp critical*
+  *# pragma omp critical*
    
   *global_result_p += sum;*
+  
+Se tivermos duas ou mais threads sendo utilizadas, somente uma das threads será aceita pelo bloco estruturado. Assim, com o critical, quando tivermos uma thread acessando o bloco estruturado para armazenar o cálculo feito, nenhuma outra thread pode acessar a região crítica.
+
+Para realizar as somas necessárias dentro do código, usamos a variável **sum** e colocamos esse valor acumulado dentro da variável compartilhada.   
