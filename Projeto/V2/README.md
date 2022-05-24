@@ -2,7 +2,7 @@
 
   - Para compilar o programa com threads, foi utilizado a seguinte linha de comando:
 
-   `gcc -g -Wall -o taylor_openmp taylor_openmp.c -lpthread`
+   `gcc -g -Wall -fopenmp -o taylor_openmp taylor_openmp.c`
 
   - Gerando assim um arquivo executável.
 
